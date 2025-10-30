@@ -1,0 +1,8 @@
+{
+  "name": "Vision",
+  "description": "Point your camera at anything to get more information and see a generated image of it.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
