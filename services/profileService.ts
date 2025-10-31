@@ -59,6 +59,7 @@ export const saveProfile = (profile: UserProfile): void => {
 const calculateStats = (journal: JournalEntry[]): ProfileStats => {
     const stats: ProfileStats = { total: 0, Animal: 0, Plant: 0, Food: 0, Object: 0, Landmark: 0, Artwork: 0, Vehicle: 0, Fashion: 0, Other: 0 };
     stats.total = journal.length;
+    
     for (const entry of journal) {
         if (stats.hasOwnProperty(entry.info.category)) {
             stats[entry.info.category]++;

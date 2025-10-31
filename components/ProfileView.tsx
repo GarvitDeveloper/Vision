@@ -104,7 +104,7 @@ const ProfileView: React.FC<ProfileViewProps> = ({ profile, achievements, onSave
                 <div className="bg-gray-100 rounded-3xl shadow-neumorphic p-4">
                     <h3 className="text-xl font-bold text-gray-800 mb-4 px-2">Stats</h3>
                     <div className="grid grid-cols-3 gap-3">
-                        <StatCard label="Total" value={profile.stats.total} />
+                        <StatCard label="Total Scans" value={profile.stats.total} />
                         <StatCard label="Animals" value={profile.stats.Animal} />
                         <StatCard label="Plants" value={profile.stats.Plant} />
                         <StatCard label="Landmarks" value={profile.stats.Landmark} />
